@@ -57,7 +57,7 @@
 <body>
 
   <!-- Slide 1 -->
-  <div id="slide1" class="slide active" style="background-image: url('https://i.imgur.com/N7aX6LQ.png');">
+  <div id="slide1" class="slide active" style="background-image: url('https://i.imgur.com/ONkMu5q.png');">
     <div class="centered">
       <div class="title">THE HYVEN TRIALS:<br>FIND YOUR TRUE FORM</div>
       <button class="btn" onclick="nextSlide()">Start</button>
@@ -65,11 +65,11 @@
   </div>
 
   <!-- Slide 2 -->
-  <div id="slide2" class="slide" style="background-image: url('https://i.imgur.com/uEDttLf.png');">
+  <div id="slide2" class="slide" style="background-image: url('https://i.imgur.com/2EDLzS1.png');">
     <div class="centered">
       <div class="title">Muse kamu dari grup mana?</div>
-      <button class="btn" onclick="chooseGroup('princess')">IVE</button>
-      <button class="btn" onclick="chooseGroup('vampire')">ENHYPEN</button>
+      <button class="btn" onclick="chooseGroup('witch')">IVE</button>
+      <button class="btn" onclick="chooseGroup('dracula')">ENHYPEN</button>
     </div>
 
   <!-- Script -->
@@ -80,10 +80,10 @@
     }
 
     function chooseGroup(group) {
-      if (group === 'princess') {
-        window.location.href = 'Princess.html'; // ganti dengan halaman pertanyaan princess
-      } else if (group === 'vampire') {
-        window.location.href = 'PrinceVampire.html'; // ganti dengan halaman pertanyaan vampire
+      if (group === 'witch') {
+        window.location.href = 'Witch.html'; // ganti dengan halaman pertanyaan princess
+      } else if (group === 'dracula') {
+        window.location.href = 'DraculaHunter.html'; // ganti dengan halaman pertanyaan vampire
       }
     }
   </script>
